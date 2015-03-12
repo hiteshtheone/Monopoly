@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2F82DA441AB157370021AC9B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F82DA431AB157370021AC9B /* main.cpp */; };
+		2F82DA4C1AB1576F0021AC9B /* Ticket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F82DA4A1AB1576F0021AC9B /* Ticket.cpp */; };
+		2F82DA4F1AB15A860021AC9B /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F82DA4D1AB15A860021AC9B /* Player.cpp */; };
+		2F82DA521AB15B8A0021AC9B /* Bank.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F82DA501AB15B8A0021AC9B /* Bank.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		2F82DA401AB157370021AC9B /* Monopoly */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Monopoly; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F82DA431AB157370021AC9B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2F82DA4A1AB1576F0021AC9B /* Ticket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ticket.cpp; sourceTree = "<group>"; };
+		2F82DA4B1AB1576F0021AC9B /* Ticket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ticket.h; sourceTree = "<group>"; };
+		2F82DA4D1AB15A860021AC9B /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		2F82DA4E1AB15A860021AC9B /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		2F82DA501AB15B8A0021AC9B /* Bank.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bank.cpp; sourceTree = "<group>"; };
+		2F82DA511AB15B8A0021AC9B /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				2F82DA431AB157370021AC9B /* main.cpp */,
+				2F82DA4A1AB1576F0021AC9B /* Ticket.cpp */,
+				2F82DA4B1AB1576F0021AC9B /* Ticket.h */,
+				2F82DA4D1AB15A860021AC9B /* Player.cpp */,
+				2F82DA4E1AB15A860021AC9B /* Player.h */,
+				2F82DA501AB15B8A0021AC9B /* Bank.cpp */,
+				2F82DA511AB15B8A0021AC9B /* Bank.h */,
 			);
 			path = Monopoly;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F82DA441AB157370021AC9B /* main.cpp in Sources */,
+				2F82DA521AB15B8A0021AC9B /* Bank.cpp in Sources */,
+				2F82DA4C1AB1576F0021AC9B /* Ticket.cpp in Sources */,
+				2F82DA4F1AB15A860021AC9B /* Player.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
